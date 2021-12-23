@@ -23,5 +23,4 @@
   <p align="center">
      <a href="https://plomatteo.github.io/JavascriptButton/" target="_blanck"> CLICCA QUI </a>
     <br />
-  <hr>
 </div>
