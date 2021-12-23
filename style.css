@@ -1,32 +1,53 @@
 h1 {
-    text-align:center;
-    padding: 50px;
-    font-family: Questrial, sans serif;
-  }
-  .container{
-    display:flex;
-    justify-content:center;
-  }
-  .counter{
-    display:flex;
-    justify-content: space-between;
-    width: 200px;
-  }
-  
-  .format{
-    color:black;
-    padding:1rem;
-    font-size: 1rem;
-    border:none;
-    border-radius:50px;
-    width: 50px;
-    text-align:center;
-  }
-  
-  .add,.remove{
-      box-shadow: 2px 3px #888888;
-  }
-  
-  .add:active, .remove:active{
-      background-color:yellowgreen;
-  }  
+  text-align:center;
+  font-family: Questrial, sans serif;
+}
+/*wrapper di entrambi i contatori*/
+.wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Contenitore di titolo e counter*/
+.container{
+  justify-content:center;
+  width: 300px;
+}
+
+/*Classe contenitore del counter*/
+.counter{
+  justify-content: center;
+  display: flex;
+}
+
+/*Classi dei bottoni +/- e input*/
+.format{
+  color:black;
+  margin: 3px;
+  font-size: 1rem;
+  border:none;
+  border-radius:50px;
+  width: 50px;
+  height: 50px;
+  text-align:center;
+}
+
+/*Classi dei bottoni +/- */
+.add,.remove{
+    box-shadow: 2px 3px #888888;
+}
+.add:active, .remove:active{
+    background-color:yellowgreen;
+}
+
+/*Modifico l'aspetto del input type number per rimuovere le frecce*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
