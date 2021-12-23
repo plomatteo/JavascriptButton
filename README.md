@@ -1,7 +1,7 @@
 <div id="top"></div>
 
 <h3 align="center">PROGETTO CONTATORE JAVASCRIPT</h3>
-
+<hr>
   <p align="center">
      Il presente progetto è stato svolto a conclusione dello studio della Superguida Javascript Basic di Star2Impact.
     <br />
@@ -11,7 +11,7 @@
 <div id="top"></div>
 
 <h4 align="center">COME FUNZIONA</h4>
-
+<hr>
   <p align="center">
      Il presente progetto è suddiviso in un file index.html, un file css e 2 file javascript.
   <br>Il file html struttura la pagina e creare all'interno del body un div che conterrà i due contatori.
@@ -22,7 +22,7 @@
 </div>
 
 <h4 align="center">ECCO L'URL</h4>
-
+<hr>
   <p align="center">
      <a href="https://plomatteo.github.io/JavascriptButton/" target="_blanck"> CLICCA QUI </a>
     <br />
